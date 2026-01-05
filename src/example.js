@@ -1,10 +1,6 @@
-// This file has intentional linting errors
-const unusedVar = 'I am unused';
-
-console.log('Hello world');
-
+// This file has been fixed to pass linting
 function myFunction() {
-  return "double quotes instead of single"
+  return 'single quotes instead of double';
 }
 
-const anotherVar = 123
+const anotherVar = 123;
